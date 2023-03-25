@@ -3,7 +3,7 @@
 
 namespace ariel {
 Game::Game(Player p1, Player p2)
-    : player1(p1), player2(p2), pile(), cards_pack(), logs()
+    : player1(p1), player2(p2), pile(), cards_pack(), logs(), turns(0), draws(0)
 {}
 
 void Game::playTurn(){

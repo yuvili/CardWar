@@ -15,6 +15,8 @@ class Game{
         std::vector<Card> pile;
         std::vector<Card> cards_pack;
         std::vector<std::string> logs;
+        int turns;
+        int draws;
 
     public:
         Game(Player p1, Player p2);
